@@ -54,7 +54,7 @@ function Home() {
                 <input value={userURL} onChange={(e) => { setUserURL(e.target.value) }} type='text' className='px-3  py-3 w-11/12 sm:w-8/12 md:w-6/12 placeholder-slate-600 text-red-500 relative bg-white rounded-lg text-lg border-0 shadow-lg outline-none focus:outline-none focus:border-2 focus:border-cyan-700' placeholder='Shortern your link' />
                 <button onClick={() => {
                     sendReqToShortURL(userURL)
-                }} className='rounded-lg p-3 text-white m-2 text-xl w-11/12 sm:w-max' style={{ backgroundColor: '#448AFF' }}>Shortern</button>
+                }} className='rounded-lg p-3 text-white m-2 text-xl w-11/12 sm:w-max' style={{ backgroundColor: '#448AFF' }}>Shorten</button>
 
             </div>
 
