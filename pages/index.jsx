@@ -60,7 +60,7 @@ function Home() {
 
              {show &&
                 <div className="mt-8 flex justify-center   rounded-xl">
-                    <p id='copyclip' className='text-xl bg-white  rounded-lg  font-mono min-w-max p-2'>S.KMC.ONE/{shortURL}</p>
+                    <p id='copyclip' className='text-xl bg-white  rounded-lg  font-mono min-w-max p-2'>https://s.kmc.one/{shortURL}</p>
 
                     <button title='copy' className='p-2  text-white rounded-lg' onClick={() => {
                         navigator.clipboard.writeText(`s.kmc.one/${shortURL}`);
